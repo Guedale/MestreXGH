@@ -117,8 +117,8 @@ def menu():
         else:
             print("Opção inválida! Escolha 1, 2 ou 0.")
 
-# ==================================
-# INICIAR O PROGRAMA
-# ==================================
+
+# Agora apenas rodar haeuaeuheaheuaehae
+
 
 menu()
