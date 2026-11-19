@@ -91,9 +91,7 @@ def consultar_ddd():
         print("Não foi possível realizar a consulta.")
 
 
-# ==================================
 # FUNÇÃO DO MENU PRINCIPAL
-# ==================================
 
 def menu():
 
@@ -118,7 +116,6 @@ def menu():
 
         else:
             print("Opção inválida! Escolha 1, 2 ou 0.")
-
 
 # ==================================
 # INICIAR O PROGRAMA
