@@ -1,4 +1,4 @@
-# ORGINAL ABAIXO
+# ORGINAL
 
 #import csv, random
 #
@@ -27,6 +27,8 @@
 #print("clientes.csv criado")
 #print(open("clientes.csv", encoding="utf-8").read())
 
+
+# Modificado
 import csv, random
 
 random.seed(12)
