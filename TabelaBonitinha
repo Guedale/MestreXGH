@@ -1,0 +1,31 @@
+import pandas as pd
+
+from rich.console import Console
+from rich.table import Table
+
+
+# Criando os dados
+dados = {
+    "loja": ["Santos", "Guarujá", "Santos", "Guarujá", "Santos"],
+    "faturamento": [1000, 2000, 1500, 500, 750]
+}
+
+# Transformando os dados em DataFrame
+df = pd.DataFrame(dados)
+
+
+# Criando a tabela visual
+tabela = Table(title="Faturamento por loja")
+
+tabela.add_column("Loja")
+tabela.add_column("Faturamento", justify="right")
+
+
+# Agrupando e somando os faturamentos
+for loja, valor in df.groupby("loja")["faturamento"].sum().round(2).items():
+
+    tabela.add_row(loja, f"{valor:,.2f}")
+
+
+# Exibindo a tabela
+Console().print(tabela)
