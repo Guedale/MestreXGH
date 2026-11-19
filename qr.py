@@ -13,4 +13,3 @@ print("QR code criado com sucesso!") # Informa ao usuário que o QR code foi cri
 
 imagem.show() # Exibe a imagem do QR code gerado
 
-fdsfdsfs
