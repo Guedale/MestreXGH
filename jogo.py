@@ -68,3 +68,4 @@ while rodando:
 # Encerra o Pygame
 pygame
 #Adições:
+
